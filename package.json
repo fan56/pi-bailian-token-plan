@@ -1,0 +1,36 @@
+{
+  "name": "pi-bailian-token-plan",
+  "version": "1.0.0",
+  "description": "阿里云百炼 Token Plan 扩展 - 支持千问、DeepSeek、GLM 等模型",
+  "keywords": [
+    "pi-extension",
+    "bailian",
+    "alibaba",
+    "qwen",
+    "token-plan"
+  ],
+  "type": "module",
+  "main": "./index.ts",
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "files": [
+    "index.ts",
+    "README.md"
+  ],
+  "license": "MIT",
+  "author": "fan56",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fan56/pi-bailian-token-plan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fan56/pi-bailian-token-plan/issues"
+  },
+  "homepage": "https://github.com/fan56/pi-bailian-token-plan#readme",
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
