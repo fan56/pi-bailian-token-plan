@@ -12,7 +12,7 @@ const TOKEN_PLAN_MODELS = [
     contextWindow: 1_000_000,
     maxTokens: 65_536,
     compat: {
-      supportsDeveloperMode: false,
+      supportsDeveloperRole: false,
       supportsReasoningEffort: false,
       maxTokensField: "max_tokens",
       requiresToolResultName: true,
