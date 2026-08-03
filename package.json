@@ -1,6 +1,6 @@
 {
   "name": "@aiwayds/pi-bailian-token-plan",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "阿里云百炼 Token Plan 扩展 - 支持千问、DeepSeek、GLM 等模型",
   "keywords": [
     "pi-extension",
