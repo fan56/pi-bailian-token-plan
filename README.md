@@ -11,7 +11,7 @@
 | qwen3.7-plus | 1M | 65,536 | ✅ | ✅ |
 | qwen3.7-max | 262K | 65,536 | ✅ | ❌ |
 | qwen3.6-flash | 1M | 65,536 | ✅ | ✅ |
-| qwen3.7-flash | 1M | 65,536 | ✅ | ✅ |
+| deepseek-v4-flash-0731 | 1M | 65,536 | ✅ | ❌ |
 | deepseek-v4-pro | 262K | 65,536 | ✅ | ❌ |
 | glm-5.2 | 202K | 16,384 | ✅ | ❌ |
 
