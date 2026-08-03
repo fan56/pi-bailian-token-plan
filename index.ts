@@ -12,6 +12,23 @@ const TOKEN_PLAN_MODELS = [
     contextWindow: 1_000_000,
     maxTokens: 65_536,
     compat: {
+      supportsDeveloperMode: false,
+      supportsReasoningEffort: false,
+      maxTokensField: "max_tokens",
+      requiresToolResultName: true,
+      requiresMistralToolIds: true,
+      thinkingFormat: "qwen",
+    },
+  },
+  {
+    id: "qwen3.8-max",
+    name: "qwen3.8-max",
+    reasoning: true,
+    input: ["text", "image"] as const,
+    cost: { input: 0, output: 0, cacheRead: 0, cacheWrite: 0 },
+    contextWindow: 1_000_000,
+    maxTokens: 65_536,
+    compat: {
       supportsDeveloperRole: false,
       supportsReasoningEffort: false,
       maxTokensField: "max_tokens",
