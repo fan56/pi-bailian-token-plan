@@ -1,13 +1,16 @@
-import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
+import type {
+  ExtensionAPI,
+  ProviderModelConfig,
+} from "@earendil-works/pi-coding-agent";
 
 // 百炼 Token Plan 模型定义
-const TOKEN_PLAN_MODELS = [
+const TOKEN_PLAN_MODELS: ProviderModelConfig[] = [
   // 千问系列
   {
     id: "qwen3.8-max-preview",
     name: "qwen3.8-max-preview",
     reasoning: true,
-    input: ["text", "image"] as const,
+    input: ["text", "image"],
     cost: { input: 0, output: 0, cacheRead: 0, cacheWrite: 0 },
     contextWindow: 1_000_000,
     maxTokens: 65_536,
@@ -23,7 +26,7 @@ const TOKEN_PLAN_MODELS = [
     id: "qwen3.8-max",
     name: "qwen3.8-max",
     reasoning: true,
-    input: ["text", "image"] as const,
+    input: ["text", "image"],
     cost: { input: 0, output: 0, cacheRead: 0, cacheWrite: 0 },
     contextWindow: 1_000_000,
     maxTokens: 65_536,
@@ -39,7 +42,7 @@ const TOKEN_PLAN_MODELS = [
     id: "qwen3.7-plus",
     name: "qwen3.7-plus",
     reasoning: true,
-    input: ["text", "image"] as const,
+    input: ["text", "image"],
     cost: { input: 0, output: 0, cacheRead: 0, cacheWrite: 0 },
     contextWindow: 1_000_000,
     maxTokens: 65_536,
@@ -71,7 +74,7 @@ const TOKEN_PLAN_MODELS = [
     id: "qwen3.6-flash",
     name: "qwen3.6-flash",
     reasoning: true,
-    input: ["text", "image"] as const,
+    input: ["text", "image"],
     cost: { input: 0, output: 0, cacheRead: 0, cacheWrite: 0 },
     contextWindow: 1_000_000,
     maxTokens: 65_536,
